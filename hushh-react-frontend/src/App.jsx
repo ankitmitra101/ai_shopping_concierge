@@ -7,7 +7,7 @@ import ChatArea from './components/ChatArea'
 import './App.css'
 
 // Use environment variable or fallback to Render backend
-const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://hushh-backend-uc5w.onrender.com'
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || 'https://ai-shopping-concierge.onrender.com'
 const API_URL = `${BACKEND_URL}/agents/run`
 const HEALTH_URL = `${BACKEND_URL}/health`
 const CLEAR_URL = `${BACKEND_URL}/agents/clear`
